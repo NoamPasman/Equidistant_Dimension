@@ -11,9 +11,8 @@ All programs require a C++17 compiler and have no external dependencies.
 
 # Authorship and Acknowledgment
 
-The verification software was developed and validated by Noam Pasman and Kai Mawhinney.
-
-This code was developed with the assistance of ChatGPT and has been checked by the authors, who take full responsibility for its mathematical validity.
+This verification software was developed and validated by Noam Pasman and Kai Mawhinney.
+The code was developed with the assistance of ChatGPT and has been checked by the authors, who take full responsibility for its mathematical validity.
 
 # References
 
