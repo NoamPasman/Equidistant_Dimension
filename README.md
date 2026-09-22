@@ -1,23 +1,14 @@
 # Supplementary Material to "Advances in the Equidistant Dimension of Graphs"
-This repository contains code in `C++` for verifying Computational Lemma 7.10 in [MP26].
 
-# Usage
+This repository contains programs in `C++` used to verifying computations in [MP26].
+All programs require a C++17 compiler and have no external dependencies.
 
-Use the following command in `bash` to compile the code.
+# Results
 
-`c++ -std=c++17 -O3 -DNDEBUG verify_computational_lemma.cpp -o verify_computational_lemma`
+- The lower bound on \(r^*(n)\) given by Proposition 6.18 is tight for all $n<64$. Moreover, if $n\in\{1,3,7,15,63\}$, then the set constructed by Proposition 6.18 is the unique set of maximal size that avoids the banned pattern.
+- Lemma 7.9 is true.
+- Computational Lemma 7.10 is true.
 
-Then, run the code using this command.
-
-`./verify_computational_lemma`
-
-To check only the case $a = 5$, for instance, use the following command:
-
-`./verify_computational_lemma --a 5`
-
-Optional CSV certificates can be generated with:
-
-`./verify_computational_lemma --csv-prefix dim3_check`
 
 # LLM Acknowledgment
 
