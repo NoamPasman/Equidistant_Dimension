@@ -6,7 +6,7 @@ All programs require a C++17 compiler and have no external dependencies.
 # Results
 
 - The lower bound on $r^*(n)$ given by Proposition 6.18 is tight for all $n<64$. Moreover, if $n\in\{1,3,7,15,63\}$, then the set constructed by Proposition 6.18 is the unique set of maximal size that avoids the banned pattern.
-- Lemma 7.9 is true.
+- The sets described in the proof of Lemma 7.9 are indeed distance-equalizing.
 - Computational Lemma 7.10 is true.
 
 # Authorship and Acknowledgment
